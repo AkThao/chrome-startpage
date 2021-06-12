@@ -4,11 +4,85 @@ body {
     background-color: rgb(40, 40, 40);
 }
 
-#center-container {
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    border: 1px solid black;
-    color: white;
+#page-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
     padding: 0;
+    background-color: rgb(40, 40, 40);
+}
+
+#title-section {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-section p {
+    color: white;
+    padding-top: 10px;
+    font-size: 65px;
+    font-weight: normal;
+    font-family: "Lucida Console", monospace;
+}
+
+#title-section span {
+    color: cyan;
+    margin: 0;
+}
+
+#time-section {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+#time-section p {
+    margin: 0;
+    font-family: "Courier New", monospace;
+}
+
+#time-section #time {
+    color: cyan;
+    font-size: 65px;
+}
+
+#time-section #date {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#links-section {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+#links-section p {
+    color: blue;
+    margin: 0;
+}
+
+.website-card {
+    min-height: 200px;
+    min-width: 300px;
+    border: 1px solid black;
+    border-bottom: 2px solid cyan;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    margin: 15px;
 }

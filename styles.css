@@ -85,4 +85,24 @@ body {
     border-radius: 10px;
     background-color: rgb(50, 50, 50);
     margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.website-card img {
+    height: 100px;
+    transition: 0.2s;
+}
+
+.website-card:hover {
+    border-bottom-width: 6px;
+    min-height: 196px;
+    transition: 0.2s;
+}
+
+.website-card:hover img {
+    height: 130px;
+    transition: 0.2s;
 }

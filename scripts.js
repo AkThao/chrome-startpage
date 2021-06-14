@@ -1,5 +1,18 @@
 window.onload = function() {
     clock();
+    blink();
+}
+
+function blink() {
+    let prompt = document.getElementById("prompt");
+    if (prompt.style.visibility == "visible") {
+        prompt.style.visibility = "hidden";
+    }
+    else {
+        prompt.style.visibility = "visible";
+    }
+
+    setTimeout(blink, 500);
 }
 
 function clock() {

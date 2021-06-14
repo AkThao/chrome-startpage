@@ -12,5 +12,4 @@ It is written in pure HTML/CSS/JS and uses no libraries.
 
 ## Todo
 
-- Add blinking animation to prompt ">" in welcome message
 - Improve mobile responsiveness

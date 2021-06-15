@@ -11,5 +11,3 @@ It is written in pure HTML/CSS/JS and uses no libraries.
 - Links to my most visited websites with a little animation for improved interactivity
 
 ## Todo
-
-- Improve mobile responsiveness

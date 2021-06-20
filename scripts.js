@@ -16,7 +16,7 @@ function blink() {
 }
 
 function clock() {
-    const days = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+    const days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     let now = new Date();
@@ -32,7 +32,7 @@ function clock() {
     date = addOrdinalSuffix(date);
 
     document.getElementById("time").innerHTML = `${hr}:${min}`;
-    document.getElementById("date").innerHTML = `${days[day - 1]} ${date} ${months[month]}`;
+    document.getElementById("date").innerHTML = `${days[day]} ${date} ${months[month]}`;
 
     setTimeout(clock, 1000);
 }

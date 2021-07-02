@@ -17,7 +17,7 @@ function blink() {
 
 function clock() {
     const days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     let now = new Date();
     let hr = now.getHours();

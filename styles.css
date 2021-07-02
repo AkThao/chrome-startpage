@@ -87,7 +87,7 @@ body {
 
 .website-card {
     min-height: 200px;
-    min-width: 300px;
+    min-width: 260px;
     border: 1px solid black;
     border-bottom: 2px solid cyan;
     border-radius: 10px;

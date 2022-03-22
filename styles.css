@@ -27,10 +27,11 @@ body {
 #title-section p {
     color: white;
     padding-top: 10px;
-    font-size: 65px;
+    font-size: 75px;
     font-weight: normal;
-    font-family: "Lucida Console", monospace;
+    font-family: "Courier New", monospace;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 606px) {
@@ -68,6 +69,18 @@ body {
     font-size: 30px;
     margin-top: 10px;
     font-weight: bold;
+}
+
+#google-search {
+    outline: none;
+    background-color: rgb(50, 50, 50);
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    margin: 30px 0px 10px;
+    width: 524px;
 }
 
 #links-section {

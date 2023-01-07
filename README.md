@@ -11,3 +11,7 @@ It is written in pure HTML/CSS/JS and uses no libraries.
 - Google search bar
 - Links to my most visited websites with a little animation for improved interactivity
 - Responsiveness on mobile screens (not that I use this on mobile, but it's nice to do anyway)
+
+## Link
+
+https://akthao.github.io/custom-startpage/

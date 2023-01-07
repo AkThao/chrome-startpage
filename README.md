@@ -13,3 +13,7 @@ It is written in pure HTML/CSS/JS and uses no libraries.
 - Responsiveness on mobile screens (not that I use this on mobile, but it's nice to do anyway)
 
 The master branch contains the files for Google Chrome but there is also a Firefox branch for, well... Firefox
+
+## Link
+
+https://akthao.github.io/custom-startpage/
